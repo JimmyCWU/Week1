@@ -1,0 +1,267 @@
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+h1{
+    font-family: 'Andale Mono';
+    font-size: 80px;
+    line-height: 90px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 24px;
+    margin-bottom: 48px;
+}
+.picture1{
+    width: 324px;
+    height: 324px;
+    margin-bottom: 48px;
+}
+.title_name{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding-bottom: 8px;
+}
+h2{
+   font-size: 32px;
+   line-height: 32px;
+   font-family: PingFang TC;
+   font-weight: 500;
+   position: relative;
+}
+
+
+/*profile*/
+.title_name p{
+   font-size: 24px;
+   color: #A00404;
+   margin-left: 16px;
+   font-weight: 500;
+   font-family: PingFang TC;
+}
+
+.exp ul li {
+   list-style-type:none;
+   position: relative;
+}
+
+.exp ul li::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: -32px;
+  background-color: #96A9C4;
+  top: 9px;
+  border-radius: 50%;
+  z-index: 1;
+}
+ul li, h3{
+  color: #000000;
+  font-family: PingFang TC;
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 100;
+}
+/*Education*/
+.timeline {
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  background-color: #96A9C4;
+  top: 22px;
+  bottom:22px;
+  left: 22px;
+  z-index:2;
+}
+.container2 {
+  position: relative;
+  left: 30px;
+}
+
+.container2::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: -15px;
+  background-color: #96A9C4;
+  top: 10px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.content {
+  font-size:24px;
+  padding-left: 10px;
+}
+
+
+
+
+
+/*skills*/
+
+
+.skill-wrap {
+
+  margin: 72px auto;
+   width: 1200px;
+  height: 494px;
+  background-color:  #415165;
+  position:relative;
+}
+
+.skill-wrap:after {
+  content: "";
+  display: block;
+  height: 360px;
+  /* 做一個超級長的寬 */
+  width: 19200px;
+  /* 垂直置中定位 */
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  /* 推超級左邊 */
+  left: -999px;
+  background-color: #96A9C4;
+  z-index:-1;
+}
+.skill-wrap h2{
+  width: 996px;
+  font-size: 32px;
+  color:#FFFFFF;
+  border-bottom: 1px solid white;
+  text-align: center;
+  line-height: 45px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  margin: 0 auto 20px auto;
+}
+.skill-wrap span{
+  font-size: 24px;
+  color:#FFFFFF;
+  width:79px;
+  margin-left: 16px;
+
+}
+/* skill list */
+.skillList {
+  list-style:none;
+  width: 216px;
+  height: 321.5px;
+  border-left: 0.5px solid #96A9C4;
+  margin: 40px auto; 
+}
+.skillListItem {
+  font-size: 24px;
+  line-height: 33px;
+  font-family: Roboto;
+  font-weight: lighter;
+  color: #FFFFFF;
+  padding-bottom: 16px;
+  margin-top: 0px;
+}
+
+/*working experience*/
+.exp-first{
+  font-size:24px;
+  margin-bottom: 8px;
+  margin-top: 22px;
+}
+.expr-second{
+  margin-bottom: 32px: 
+}
+.expr-second1{
+  font-size:24px;
+  margin-top: 32px;
+  font-family:PingFang TC;
+}
+.picture2{
+  width:90px;
+  height: 67px;
+  margin-top:8px;
+}
+.story{
+  width:642px;
+  height: 154px;
+}
+h5{
+  font-weight: 100;
+  font-size:20px;
+  margin-top: 8px;
+  font-family: PingFang TC
+}
+.picture3{
+  width:72px;
+  height: 73px;
+}
+
+/*footer*/
+footer{
+  background-color: #415165;
+  width:100%;
+  height: 401px;
+  margin-top: 72px;
+}
+.contact{
+  width:1200px;
+  height:60px;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+  text-align: center;
+  padding-top:24px;
+  padding-bottom: 8px;
+
+}
+.contact h{
+  font-size: 32px;
+  color:#FFFFFF;
+  font-family:PingFang TC; 
+}
+.contact span{
+  font-size: 24px;
+  color:#FFFFFF;
+  margin-left: 16px;
+  line-height: 32px;
+  font-family: "Roboto",sans-serif;
+}
+/*content-inform*/
+.content-inform{
+  margin: 32px auto 16px auto;
+}
+h6{
+  font-family: PingFang TC;
+  font-size:24px;
+  color:#FFFFFF;
+  margin: 0 auto;
+  line-height: 36px;
+  font-weight: lighter;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.icon{
+  margin-left: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
